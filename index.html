@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TFC OTP Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="otp-container">
+        <select id="myDropdown">
+            <option value="1" selected>Ajay Kumar</option>
+            <option value="2">Manoj Kholi</option>
+            <option value="3">Deepak Kumar</option>
+        </select>
+        
+        <div class="img-cnt">
+            <img src="https://lh3.googleusercontent.com/d/1sf6AmMXhiX6k9tLv1I_Ag9w33bMwto0l" alt="OTP Finder">
+        </div>
+        <div class="cnt-bdy">
+            <div class="bold-txt">
+                <h1>Let's Request Your OTP</h1>
+            </div>
+            <div class="main-cnt">
+                <div class="msg-cnt" id="msgSection">
+                    <p>To request your latest OTP for the Faveo Portal, click the 'Request OTP' button. The OTP will be displayed here.</p>
+                </div>
+                <div class="otp-sec" id="otpSection">
+                    <p>Here is your OTP</p>
+                    <div class="otp-cnt" id="otpDigits">
+                       
+                    </div>
+                    <p id="date-time"></p>
+                </div>
+            </div>
+            <div class="button-cnt">
+                <button id="requestOtpButton" onclick="fetchLatestOTP()">
+                    Request OTP
+                    <div class="spinner" id="spinnerRequest" style="display: none;"></div>
+                </button>
+                <button id="refreshOtpButton" style="display: none;" onclick="refreshOtp()">Refresh OTP
+                    <div class="spinner" id="spinnerRefresh" style="display: none;"></div>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
