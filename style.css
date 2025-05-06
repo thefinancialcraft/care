@@ -16,7 +16,7 @@ body {
 
 .otp-container {
     opacity: 1;
-    background: linear-gradient(23deg, #FFED63 -46%, #E8D75D 34%, #FFF7B8 115%);
+    background: #323745;
     height: 100%;
     width: 100%;
 }
@@ -52,7 +52,7 @@ body {
     font-family: 'roboto', sans-serif;
     font-weight: 600;
     opacity: 1;
-    text-shadow: 1px 4px 5px #ae9e2422;
+    text-shadow: 1px 4px 5px #f2465438;
 }
 
 .main-cnt {
@@ -73,11 +73,11 @@ body {
     width: 80vw;
     height: 13vw;
     border-radius: 3vw;
-    background-color:#27639f;
+    background-color: #f24655;
     color: white;
     border: none;
     font-size: 4vw;
-    box-shadow: 1px 4px 10px #3939393c;
+    box-shadow: 1px 4px 10px #f2465438;
     cursor: pointer;
     position: relative;
     display: flex;
@@ -88,7 +88,7 @@ body {
 /* Spinner Styles */
 .spinner {
     position: relative;
-    border: 3px solid rgba(255, 255, 255, 0.3);
+    border: 3px solid #f24655;
     border-top: 3px solid white;
     border-radius: 50%;
     width: 20px;
@@ -115,7 +115,7 @@ body {
 .otp-sec p {
     font-size: 4vw;
     font-family: 'roboto',sans-serif;
-    color: #27639f;
+    color: #f24655;
 }
 
 .otp-cnt {
@@ -139,7 +139,7 @@ body {
     font-size: 7vw;
     font-family: 'roboto',sans-serif;
     font-weight: bold;
-    color: #27639f;
+    color: #f24655;
 }
 
 @media (min-width: 400px) {
@@ -175,7 +175,7 @@ body {
 .msg-cnt p {
     font-size: 4vw;
     font-family: 'roboto',sans-serif;
-    color: #27639f;
+    color: #f24655;
     width: 70%;
     margin-left: 4vw;
 }
@@ -238,7 +238,7 @@ body {
     width: 16vw;
     height: 45px;
     border-radius: 12px;
-    background-color:#27639f;
+    background-color:#f24655;
     color: white;
     border: none;
     font-size: 1.4vw;
@@ -252,7 +252,7 @@ body {
 .msg-cnt p {
     font-size: 1.5vw;
     font-family: 'roboto',sans-serif;
-    color: #27639f;
+    color: #f24655;
     width: 70%;
     margin-left: 0;
 
@@ -289,7 +289,7 @@ margin-top: 2vw;
     font-size: 14px;
     top: 50px;
     right: 30px;
-    border: 1px solid #27639f;
-    color: #27639f;
+    border: 1px solid #f24655;
+    color: #f24655;
     font-weight: 600;
 }
